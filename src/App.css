@@ -1,0 +1,116 @@
+.Todo-list-container{
+  margin: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80rem;
+  border: 1px solid black;
+  min-height: 50rem;
+  background-image: repeating-linear-gradient(45deg, #e6f5f9, #8ef1f0 100px);
+  border-radius: 1rem;
+}
+
+.todo-form{
+  display: flex;
+  width: 100%;
+  font-size: 2rem;
+  margin-top: 3rem;
+  gap: 2rem;
+}
+
+.todo-form input{
+  border: 1px solid black;
+  font-size: 2rem;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  background-color:rgb(249, 173, 180);
+  color: black;
+}
+
+.todo-form button{
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: #7c6cf2;
+  padding: 3rem;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 2.5rem
+}
+
+.todo-form button:hover{
+  background-color: black;
+  color: white;
+  font-weight: 600;
+}
+
+.task-div{
+  background-color: rgb(134, 194, 246);
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem hsla(0, 0%, 0%, 0.434);
+}
+
+.todo-text{
+  font-size:2.5rem;
+}
+
+.icons{
+  display: flex;
+  gap: 3rem;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.complete{
+  text-decoration: line-through;
+  opacity: 0.5;
+  background-color: greenyellow;
+}
+
+.hide{
+  display: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
